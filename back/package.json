@@ -1,0 +1,21 @@
+{
+  "name": "avocado-back",
+  "version": "1.0.0",
+  "description": "NodeJS proxy for OMDb API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo 0",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecelis/avocado.git"
+  },
+  "author": "Ernesto Celis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ecelis/avocado/issues"
+  },
+  "homepage": "https://github.com/ecelis/avocado#readme"
+}
