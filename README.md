@@ -11,7 +11,15 @@ Movie data from [OMDb API](http://www.omdbapi.com/)
 
 In the project directory, you can run:
 
-### `yarn start`
+```
+yarn back
+```
+
+It starts the backend, you at least need to provide `OMDB_API_KEY` environment variable with a valid OMDb API Key.
+
+```
+yarn start
+```
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
