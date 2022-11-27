@@ -2,6 +2,7 @@ import React from "react";
 
 // TODO use a dynamic generic poster created with javascript
 const DEFAULT_MOVIE_POSTER = "https://patito.club/patitoninja.svg";
+
 const Movie = ({ movie }) => {
   const poster = movie.Poster === "N/A" ? DEFAULT_MOVIE_POSTER : movie.Poster;
   return (
